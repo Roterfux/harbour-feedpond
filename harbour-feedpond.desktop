@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Name=Feedpond
+Comment=RSS and Atom feed reader
+Icon=harbour-feedpond
+Exec=sailfish-qml harbour-feedpond
+X-Nemo-Application-Type=silica-qt5
+
+[X-Sailjail]
+OrganizationName=harbour
+ApplicationName=feedpond
+# Internet: download the feeds.
+# Documents, Downloads, RemovableMedia: pick an OPML file to import;
+#           the OPML export is written to Documents.
+Permissions=Internet;Audio;WebView;FeedpondSpeechNote;Documents;Downloads;RemovableMedia

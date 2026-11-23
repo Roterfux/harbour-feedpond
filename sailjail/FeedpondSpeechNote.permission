@@ -1,0 +1,6 @@
+# -*- mode: sh -*-
+# x-sailjail-description = Speech Note
+# x-sailjail-long-description = Read articles aloud with the app Speech Note
+
+# Feedpond calls Speech Note's text-to-speech service (org.mkiol.Speech on the session bus)
+dbus-user.talk org.mkiol.Speech
